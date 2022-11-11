@@ -4,7 +4,7 @@ t.speed(3)
 # t.pensize(0)
 sc = turtle.Screen()
 #
-# # Le bleu
+# gold
 t.color("gold")
 t.begin_fill()
 t.fillcolor("gold")
@@ -21,7 +21,7 @@ t.right(90)
 t.fd(350)
 t.end_fill()
 
-# Le bleu
+# green
 t.color("green")
 t.begin_fill()
 t.fillcolor("green")
@@ -33,7 +33,7 @@ t.left(90)
 t.fd(75)
 t.end_fill()
 
-# Le bleu
+# bleu
 
 t.color("blue")
 t.up()
