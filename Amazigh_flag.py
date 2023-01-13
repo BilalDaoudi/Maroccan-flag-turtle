@@ -4,10 +4,10 @@ t.speed(3)
 # t.pensize(0)
 sc = turtle.Screen()
 #
-# gold
-t.color("gold")
+# # Le bleu
+t.color("blue")
 t.begin_fill()
-t.fillcolor("gold")
+t.fillcolor("blue")
 t.up()
 t.goto(-150,75)
 t.down()
@@ -21,7 +21,7 @@ t.right(90)
 t.fd(350)
 t.end_fill()
 
-# green
+# Le bleu
 t.color("green")
 t.begin_fill()
 t.fillcolor("green")
@@ -33,14 +33,14 @@ t.left(90)
 t.fd(75)
 t.end_fill()
 
-# bleu
+# Le bleu
 
-t.color("blue")
+t.color("gold")
 t.up()
 t.goto(200,0)
 t.down()
 t.begin_fill()
-t.fillcolor("blue")
+t.fillcolor("gold")
 t.right(180)
 t.fd(75)
 t.right(90)
@@ -51,6 +51,7 @@ t.end_fill()
 
 
 
+t.speed(0)
 t.color("red")
 t.up()
 t.goto(-20,100)
@@ -105,7 +106,7 @@ t.up()
 t.goto(-20,100)
 t.down()
 t.begin_fill()
-t.fillcolor("gold")
+t.fillcolor("blue")
 t.left(90)
 t.fd(20)
 t.right(90)
@@ -117,14 +118,14 @@ t.up()
 t.goto(80,-20)
 t.down()
 t.begin_fill()
-t.fillcolor("blue")
+t.fillcolor("gold")
 t.right(270)
 t.fd(20)
 t.right(90)
 t.circle(30,180)
 t.end_fill()
 
-
+t.speed(3)
 
 t.up()
 t.goto(40,-20)
